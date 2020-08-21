@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>API</title>
+</head>
+
+<style>
+  label{
+    color: #fff;
+  }
+  label:hover{
+    color: #009900;
+    cursor: pointer;
+  }
+</style>
+
+<body style="background-color: #404040;">
+<button class="btn btn-primary" onclick="buscarReleased()" style="float: right">Lançamentos</button>
+<button class="btn btn-primary" onclick="buscarNoticias()"style="float: left">Notícias</button><br><br><br>
+ 
+ <a id="link1" href="">
+  <label id="titulo1"></label><br>
+  <label id="texto1"></label><br><br><br>
+ </a>
+
+  <a id="link2" href="">
+  <label id="titulo2"></label><br>
+  <label id="texto2"></label><br><br><br>
+  </a>
+
+  <a id="link3" href="">
+  <label id="titulo3"></label><br>
+  <label id="texto3"></label><br><br><br>
+    </a>
+
+    <a id="link4" href="">
+  <label id="titulo4"></label><br>
+  <label id="texto4"></label><br><br><br>
+  </a>
+
+  <a id="link5" href="">
+  <label id="titulo5"></label><br><br>
+  <label id="texto5"></label><br><br><br>
+</a>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>  
+  <script src="js/index.js"></script>
+</body>
+</html>  
